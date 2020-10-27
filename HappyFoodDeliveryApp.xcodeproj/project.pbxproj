@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1CADCD72548848300C7BD2F /* HappyFoodDeliveryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CADCD62548848300C7BD2F /* HappyFoodDeliveryAppApp.swift */; };
+		C1CADCD92548848300C7BD2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CADCD82548848300C7BD2F /* ContentView.swift */; };
+		C1CADCDB2548848700C7BD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CADCDA2548848700C7BD2F /* Assets.xcassets */; };
+		C1CADCDE2548848700C7BD2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CADCDD2548848700C7BD2F /* Preview Assets.xcassets */; };
+		C1CADCE02548848700C7BD2F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CADCDF2548848700C7BD2F /* Persistence.swift */; };
+		C1CADCE32548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C1CADCE12548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodeld */; };
+		C1CADCEE2548848700C7BD2F /* HappyFoodDeliveryAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CADCED2548848700C7BD2F /* HappyFoodDeliveryAppTests.swift */; };
+		C1CADCF92548848700C7BD2F /* HappyFoodDeliveryAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CADCF82548848700C7BD2F /* HappyFoodDeliveryAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1CADCEA2548848700C7BD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1CADCCB2548848300C7BD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1CADCD22548848300C7BD2F;
+			remoteInfo = HappyFoodDeliveryApp;
+		};
+		C1CADCF52548848700C7BD2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1CADCCB2548848300C7BD2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1CADCD22548848300C7BD2F;
+			remoteInfo = HappyFoodDeliveryApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1CADCD32548848300C7BD2F /* HappyFoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyFoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CADCD62548848300C7BD2F /* HappyFoodDeliveryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyFoodDeliveryAppApp.swift; sourceTree = "<group>"; };
+		C1CADCD82548848300C7BD2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C1CADCDA2548848700C7BD2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1CADCDD2548848700C7BD2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C1CADCDF2548848700C7BD2F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C1CADCE22548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HappyFoodDeliveryApp.xcdatamodel; sourceTree = "<group>"; };
+		C1CADCE42548848700C7BD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CADCE92548848700C7BD2F /* HappyFoodDeliveryAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyFoodDeliveryAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CADCED2548848700C7BD2F /* HappyFoodDeliveryAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyFoodDeliveryAppTests.swift; sourceTree = "<group>"; };
+		C1CADCEF2548848700C7BD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1CADCF42548848700C7BD2F /* HappyFoodDeliveryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyFoodDeliveryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1CADCF82548848700C7BD2F /* HappyFoodDeliveryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyFoodDeliveryAppUITests.swift; sourceTree = "<group>"; };
+		C1CADCFA2548848700C7BD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1CADCD02548848300C7BD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1CADCE62548848700C7BD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1CADCF12548848700C7BD2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1CADCCA2548848300C7BD2F = {
+			isa = PBXGroup;
+			children = (
+				C1CADCD52548848300C7BD2F /* HappyFoodDeliveryApp */,
+				C1CADCEC2548848700C7BD2F /* HappyFoodDeliveryAppTests */,
+				C1CADCF72548848700C7BD2F /* HappyFoodDeliveryAppUITests */,
+				C1CADCD42548848300C7BD2F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1CADCD42548848300C7BD2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1CADCD32548848300C7BD2F /* HappyFoodDeliveryApp.app */,
+				C1CADCE92548848700C7BD2F /* HappyFoodDeliveryAppTests.xctest */,
+				C1CADCF42548848700C7BD2F /* HappyFoodDeliveryAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1CADCD52548848300C7BD2F /* HappyFoodDeliveryApp */ = {
+			isa = PBXGroup;
+			children = (
+				C1CADCD62548848300C7BD2F /* HappyFoodDeliveryAppApp.swift */,
+				C1CADCD82548848300C7BD2F /* ContentView.swift */,
+				C1CADCDA2548848700C7BD2F /* Assets.xcassets */,
+				C1CADCDF2548848700C7BD2F /* Persistence.swift */,
+				C1CADCE42548848700C7BD2F /* Info.plist */,
+				C1CADCE12548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodeld */,
+				C1CADCDC2548848700C7BD2F /* Preview Content */,
+			);
+			path = HappyFoodDeliveryApp;
+			sourceTree = "<group>";
+		};
+		C1CADCDC2548848700C7BD2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1CADCDD2548848700C7BD2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C1CADCEC2548848700C7BD2F /* HappyFoodDeliveryAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1CADCED2548848700C7BD2F /* HappyFoodDeliveryAppTests.swift */,
+				C1CADCEF2548848700C7BD2F /* Info.plist */,
+			);
+			path = HappyFoodDeliveryAppTests;
+			sourceTree = "<group>";
+		};
+		C1CADCF72548848700C7BD2F /* HappyFoodDeliveryAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1CADCF82548848700C7BD2F /* HappyFoodDeliveryAppUITests.swift */,
+				C1CADCFA2548848700C7BD2F /* Info.plist */,
+			);
+			path = HappyFoodDeliveryAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1CADCD22548848300C7BD2F /* HappyFoodDeliveryApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1CADCFD2548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryApp" */;
+			buildPhases = (
+				C1CADCCF2548848300C7BD2F /* Sources */,
+				C1CADCD02548848300C7BD2F /* Frameworks */,
+				C1CADCD12548848300C7BD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyFoodDeliveryApp;
+			productName = HappyFoodDeliveryApp;
+			productReference = C1CADCD32548848300C7BD2F /* HappyFoodDeliveryApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1CADCE82548848700C7BD2F /* HappyFoodDeliveryAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1CADD002548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryAppTests" */;
+			buildPhases = (
+				C1CADCE52548848700C7BD2F /* Sources */,
+				C1CADCE62548848700C7BD2F /* Frameworks */,
+				C1CADCE72548848700C7BD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1CADCEB2548848700C7BD2F /* PBXTargetDependency */,
+			);
+			name = HappyFoodDeliveryAppTests;
+			productName = HappyFoodDeliveryAppTests;
+			productReference = C1CADCE92548848700C7BD2F /* HappyFoodDeliveryAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1CADCF32548848700C7BD2F /* HappyFoodDeliveryAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1CADD032548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryAppUITests" */;
+			buildPhases = (
+				C1CADCF02548848700C7BD2F /* Sources */,
+				C1CADCF12548848700C7BD2F /* Frameworks */,
+				C1CADCF22548848700C7BD2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1CADCF62548848700C7BD2F /* PBXTargetDependency */,
+			);
+			name = HappyFoodDeliveryAppUITests;
+			productName = HappyFoodDeliveryAppUITests;
+			productReference = C1CADCF42548848700C7BD2F /* HappyFoodDeliveryAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1CADCCB2548848300C7BD2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C1CADCD22548848300C7BD2F = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					C1CADCE82548848700C7BD2F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C1CADCD22548848300C7BD2F;
+					};
+					C1CADCF32548848700C7BD2F = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = C1CADCD22548848300C7BD2F;
+					};
+				};
+			};
+			buildConfigurationList = C1CADCCE2548848300C7BD2F /* Build configuration list for PBXProject "HappyFoodDeliveryApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1CADCCA2548848300C7BD2F;
+			productRefGroup = C1CADCD42548848300C7BD2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1CADCD22548848300C7BD2F /* HappyFoodDeliveryApp */,
+				C1CADCE82548848700C7BD2F /* HappyFoodDeliveryAppTests */,
+				C1CADCF32548848700C7BD2F /* HappyFoodDeliveryAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1CADCD12548848300C7BD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CADCDE2548848700C7BD2F /* Preview Assets.xcassets in Resources */,
+				C1CADCDB2548848700C7BD2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1CADCE72548848700C7BD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1CADCF22548848700C7BD2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1CADCCF2548848300C7BD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CADCE32548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodeld in Sources */,
+				C1CADCE02548848700C7BD2F /* Persistence.swift in Sources */,
+				C1CADCD92548848300C7BD2F /* ContentView.swift in Sources */,
+				C1CADCD72548848300C7BD2F /* HappyFoodDeliveryAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1CADCE52548848700C7BD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CADCEE2548848700C7BD2F /* HappyFoodDeliveryAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1CADCF02548848700C7BD2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1CADCF92548848700C7BD2F /* HappyFoodDeliveryAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1CADCEB2548848700C7BD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1CADCD22548848300C7BD2F /* HappyFoodDeliveryApp */;
+			targetProxy = C1CADCEA2548848700C7BD2F /* PBXContainerItemProxy */;
+		};
+		C1CADCF62548848700C7BD2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1CADCD22548848300C7BD2F /* HappyFoodDeliveryApp */;
+			targetProxy = C1CADCF52548848700C7BD2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C1CADCFB2548848700C7BD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1CADCFC2548848700C7BD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1CADCFE2548848700C7BD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyFoodDeliveryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 398G994Z67;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HappyFoodDeliveryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.HappyFoodDeliveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1CADCFF2548848700C7BD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HappyFoodDeliveryApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 398G994Z67;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HappyFoodDeliveryApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.HappyFoodDeliveryApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1CADD012548848700C7BD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 398G994Z67;
+				INFOPLIST_FILE = HappyFoodDeliveryAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.HappyFoodDeliveryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyFoodDeliveryApp.app/HappyFoodDeliveryApp";
+			};
+			name = Debug;
+		};
+		C1CADD022548848700C7BD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 398G994Z67;
+				INFOPLIST_FILE = HappyFoodDeliveryAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.HappyFoodDeliveryAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyFoodDeliveryApp.app/HappyFoodDeliveryApp";
+			};
+			name = Release;
+		};
+		C1CADD042548848700C7BD2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 398G994Z67;
+				INFOPLIST_FILE = HappyFoodDeliveryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.HappyFoodDeliveryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyFoodDeliveryApp;
+			};
+			name = Debug;
+		};
+		C1CADD052548848700C7BD2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 398G994Z67;
+				INFOPLIST_FILE = HappyFoodDeliveryAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.HappyFoodDeliveryAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HappyFoodDeliveryApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1CADCCE2548848300C7BD2F /* Build configuration list for PBXProject "HappyFoodDeliveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1CADCFB2548848700C7BD2F /* Debug */,
+				C1CADCFC2548848700C7BD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1CADCFD2548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1CADCFE2548848700C7BD2F /* Debug */,
+				C1CADCFF2548848700C7BD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1CADD002548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1CADD012548848700C7BD2F /* Debug */,
+				C1CADD022548848700C7BD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1CADD032548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1CADD042548848700C7BD2F /* Debug */,
+				C1CADD052548848700C7BD2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C1CADCE12548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C1CADCE22548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodel */,
+			);
+			currentVersion = C1CADCE22548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodel */;
+			path = HappyFoodDeliveryApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C1CADCCB2548848300C7BD2F /* Project object */;
+}
