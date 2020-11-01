@@ -20,7 +20,7 @@ struct HappyFoodDeliveryAppApp: App {
     
     var body: some Scene {
         WindowGroup {
-            HomeStyle1UIView()
+            StartUIView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
