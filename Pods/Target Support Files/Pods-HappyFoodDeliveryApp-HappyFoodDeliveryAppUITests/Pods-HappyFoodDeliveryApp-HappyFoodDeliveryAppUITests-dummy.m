@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_HappyFoodDeliveryApp_HappyFoodDeliveryAppUITests : NSObject
+@end
+@implementation PodsDummy_Pods_HappyFoodDeliveryApp_HappyFoodDeliveryAppUITests
+@end

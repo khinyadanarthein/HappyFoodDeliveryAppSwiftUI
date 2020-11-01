@@ -9,7 +9,41 @@ import SwiftUI
 
 struct MainTabView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        TabView {
+            HomeStyle1UIView()
+            .tabItem {(
+                VStack {
+                    Image(systemName: "house.fill")
+                        .font(.system(size: 24, weight: .regular))
+                    //Text("home")
+                }
+                )}
+            .tag(0)
+
+            StartUIView()
+            .tabItem {(
+                VStack {
+                    Image(systemName: "flame.fill").font(.system(size: 24, weight: .regular))
+                    //Text("search")
+                    }
+
+                )}
+            .tag(1)
+            
+            
+            ProfileUIView()
+                .tabItem {(
+                    VStack {
+                        Image(systemName: "person.fill").font(.system(size: 24, weight: .regular))
+                        //Text("cloud")
+                    }
+                    
+                    )}
+                .tag(2)
+            
+        }.accentColor(.pink)
+        
     }
 }
 

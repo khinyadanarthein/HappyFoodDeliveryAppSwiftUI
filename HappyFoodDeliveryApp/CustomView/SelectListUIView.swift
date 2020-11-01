@@ -7,14 +7,41 @@
 
 import SwiftUI
 
-struct SelectListUIView: View {
+struct SelectionView: View {
+
+    let fruit = ["apples", "pears", "bananas", "pineapples"]
+    @State var selectedFruit: String? = nil
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(fruit, id: \.self) { item in
+                SelectionCell(fruit: item, selectedFruit: self.$selectedFruit)
+            }
+        }
     }
 }
 
 struct SelectListUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SelectListUIView()
+        SelectionView()
+    }
+}
+
+struct SelectionCell: View {
+
+    let fruit: String
+    @Binding var selectedFruit: String?
+
+    var body: some View {
+        HStack {
+            Text(fruit)
+            Spacer()
+            if fruit == selectedFruit {
+                Image(systemName: "checkmark")
+                    .foregroundColor(.accentColor)
+            }
+        }   .onTapGesture {
+                self.selectedFruit = self.fruit
+            }
     }
 }

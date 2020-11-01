@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+class CategoryVO : Identifiable {
+    var id: Int?
+    var name: String?
+    var image : String?
+}

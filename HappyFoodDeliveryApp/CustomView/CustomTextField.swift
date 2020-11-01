@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct CustomTextField: View {
+    var placeHolder: String
+    @Binding var value: String
+    
+    var lineColor: Color
+    var width: CGFloat
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            TextField(self.placeHolder, text: $value)
+                .padding([.leading],10)
+            
+            Rectangle().frame(height: self.width)
+                .padding(.horizontal, 10).foregroundColor(self.lineColor)
+        }
     }
 }
 
 struct CustomTextField_Previews: PreviewProvider {
     static var previews: some View {
-        CustomTextField()
+        CustomTextField(placeHolder: "custom", value: .constant("custom"), lineColor: Color.gray, width: 2)
     }
 }

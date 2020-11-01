@@ -3,10 +3,54 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043CF911AEAA14C58352FA22 /* Pods_HappyFoodDeliveryAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 778205FC024FED46112FDE49 /* Pods_HappyFoodDeliveryAppTests.framework */; };
+		3B9B55E755F192D122CBC85E /* Pods_HappyFoodDeliveryApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42D9D96FB28D9C71D4613A9 /* Pods_HappyFoodDeliveryApp.framework */; };
+		B2BF89F5357A659AB6D7F8B2 /* Pods_HappyFoodDeliveryApp_HappyFoodDeliveryAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2ABAC6648C717FD1B56E8873 /* Pods_HappyFoodDeliveryApp_HappyFoodDeliveryAppUITests.framework */; };
+		C1179B4A254C167C000C0D64 /* LoginUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1179B49254C167C000C0D64 /* LoginUIView.swift */; };
+		C1179B50254C19A6000C0D64 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1179B4F254C19A6000C0D64 /* LoginViewModel.swift */; };
+		C1179B5B254C217E000C0D64 /* RegisterUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1179B5A254C217E000C0D64 /* RegisterUIView.swift */; };
+		C1179B60254C2601000C0D64 /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1179B5F254C2601000C0D64 /* RegisterViewModel.swift */; };
+		C1179B65254C2A67000C0D64 /* StartUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1179B64254C2A67000C0D64 /* StartUIView.swift */; };
+		C1179B6A254C32AA000C0D64 /* ProfileUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1179B69254C32AA000C0D64 /* ProfileUIView.swift */; };
+		C15C07B1254E606200199E21 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C15C07B0254E606200199E21 /* GoogleService-Info.plist */; };
+		C15C0800254E68F400199E21 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C07FF254E68F400199E21 /* CategoryView.swift */; };
+		C15C0808254E693000199E21 /* PopularChoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0807254E693000199E21 /* PopularChoiceView.swift */; };
+		C15C080D254E698900199E21 /* NewRestaurantVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C080C254E698900199E21 /* NewRestaurantVIew.swift */; };
+		C15C0813254E792C00199E21 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0812254E792C00199E21 /* AuthManager.swift */; };
+		C15C0818254E7A0200199E21 /* FirebaseAuthManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0817254E7A0200199E21 /* FirebaseAuthManagerImpl.swift */; };
+		C15C081D254E7C6C00199E21 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C081C254E7C6C00199E21 /* DataModel.swift */; };
+		C15C0848254E7D7200199E21 /* AuthenticationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0847254E7D7200199E21 /* AuthenticationModel.swift */; };
+		C15C0850254E7E6C00199E21 /* UserInfoVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C084F254E7E6C00199E21 /* UserInfoVO.swift */; };
+		C15C0855254E7F0A00199E21 /* AuthenticationModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0854254E7F0A00199E21 /* AuthenticationModelImpl.swift */; };
+		C15C085E254E959000199E21 /* DataModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C085D254E959000199E21 /* DataModelImpl.swift */; };
+		C15C0863254E973A00199E21 /* PersistentCloudContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0862254E973A00199E21 /* PersistentCloudContainer.swift */; };
+		C15C0886254EA1E900199E21 /* FirebaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0885254EA1E900199E21 /* FirebaseApi.swift */; };
+		C15C08AB254EB0D000199E21 /* UIViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C08AA254EB0D000199E21 /* UIViewRepresentable.swift */; };
+		C15C08B0254EBCCA00199E21 /* FirebaseRemoteConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C08AF254EBCCA00199E21 /* FirebaseRemoteConfigManager.swift */; };
+		C15C08B5254EBD8900199E21 /* StartAppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C08B4254EBD8900199E21 /* StartAppViewModel.swift */; };
+		C15C08BA254EDD2300199E21 /* CategoryVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C08B9254EDD2300199E21 /* CategoryVO.swift */; };
+		C15C08C2254EE0F200199E21 /* RestaurantVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C08C1254EE0F200199E21 /* RestaurantVO.swift */; };
+		C15C08C7254EE39C00199E21 /* FirebaseApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C08C6254EE39C00199E21 /* FirebaseApiClient.swift */; };
+		C15C0930254EF1F100199E21 /* ApiUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C092F254EF1F100199E21 /* ApiUtils.swift */; };
+		C15C0938254F0ADB00199E21 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0937254F0ADB00199E21 /* DetailViewModel.swift */; };
+		C15C095D254F221200199E21 /* CartInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C095C254F221200199E21 /* CartInfoView.swift */; };
+		C15C0962254F2EC100199E21 /* CartVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0961254F2EC000199E21 /* CartVO.swift */; };
+		C15C0967254F412F00199E21 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0966254F412F00199E21 /* CartViewModel.swift */; };
+		C190E30B254D94C100CFE556 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E30A254D94C100CFE556 /* WelcomeViewModel.swift */; };
+		C190E310254D9EF000CFE556 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E30F254D9EF000CFE556 /* ProfileViewModel.swift */; };
+		C190E316254DA32F00CFE556 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E315254DA32F00CFE556 /* CustomTextField.swift */; };
+		C190E31E254DC18700CFE556 /* HomeStyle1UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E31D254DC18700CFE556 /* HomeStyle1UIView.swift */; };
+		C190E32B254DC20100CFE556 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E32A254DC20100CFE556 /* MainTabView.swift */; };
+		C190E330254DC43B00CFE556 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E32F254DC43B00CFE556 /* HomeViewModel.swift */; };
+		C190E335254DCDA300CFE556 /* SelectListUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E334254DCDA300CFE556 /* SelectListUIView.swift */; };
+		C190E33B254DD70400CFE556 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E33A254DD70400CFE556 /* Enum.swift */; };
+		C190E343254DE48E00CFE556 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E342254DE48E00CFE556 /* RestaurantDetailView.swift */; };
+		C19516682549C746000D0D2C /* WelcomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19516672549C746000D0D2C /* WelcomeUIView.swift */; };
+		C19516712549E39E000D0D2C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19516702549E39E000D0D2C /* Extension.swift */; };
 		C1CADCD72548848300C7BD2F /* HappyFoodDeliveryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CADCD62548848300C7BD2F /* HappyFoodDeliveryAppApp.swift */; };
 		C1CADCD92548848300C7BD2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CADCD82548848300C7BD2F /* ContentView.swift */; };
 		C1CADCDB2548848700C7BD2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1CADCDA2548848700C7BD2F /* Assets.xcassets */; };
@@ -35,6 +79,53 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03AF5FE9381E1565A91B78DE /* Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.release.xcconfig"; path = "Target Support Files/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		05B97BAA940DDCDFF8078E2F /* Pods-HappyFoodDeliveryApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyFoodDeliveryApp.release.xcconfig"; path = "Target Support Files/Pods-HappyFoodDeliveryApp/Pods-HappyFoodDeliveryApp.release.xcconfig"; sourceTree = "<group>"; };
+		2A0B823DE5AB3A5E714D625C /* Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2ABAC6648C717FD1B56E8873 /* Pods_HappyFoodDeliveryApp_HappyFoodDeliveryAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyFoodDeliveryApp_HappyFoodDeliveryAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527738720710DFCB8278AE2A /* Pods-HappyFoodDeliveryAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyFoodDeliveryAppTests.release.xcconfig"; path = "Target Support Files/Pods-HappyFoodDeliveryAppTests/Pods-HappyFoodDeliveryAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		778205FC024FED46112FDE49 /* Pods_HappyFoodDeliveryAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyFoodDeliveryAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1179B49254C167C000C0D64 /* LoginUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginUIView.swift; sourceTree = "<group>"; };
+		C1179B4F254C19A6000C0D64 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		C1179B5A254C217E000C0D64 /* RegisterUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUIView.swift; sourceTree = "<group>"; };
+		C1179B5F254C2601000C0D64 /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		C1179B64254C2A67000C0D64 /* StartUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUIView.swift; sourceTree = "<group>"; };
+		C1179B69254C32AA000C0D64 /* ProfileUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIView.swift; sourceTree = "<group>"; };
+		C15C07B0254E606200199E21 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C15C07FF254E68F400199E21 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		C15C0807254E693000199E21 /* PopularChoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularChoiceView.swift; sourceTree = "<group>"; };
+		C15C080C254E698900199E21 /* NewRestaurantVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRestaurantVIew.swift; sourceTree = "<group>"; };
+		C15C0812254E792C00199E21 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		C15C0817254E7A0200199E21 /* FirebaseAuthManagerImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManagerImpl.swift; sourceTree = "<group>"; };
+		C15C081C254E7C6C00199E21 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		C15C0847254E7D7200199E21 /* AuthenticationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationModel.swift; sourceTree = "<group>"; };
+		C15C084F254E7E6C00199E21 /* UserInfoVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVO.swift; sourceTree = "<group>"; };
+		C15C0854254E7F0A00199E21 /* AuthenticationModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationModelImpl.swift; sourceTree = "<group>"; };
+		C15C085D254E959000199E21 /* DataModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelImpl.swift; sourceTree = "<group>"; };
+		C15C0862254E973A00199E21 /* PersistentCloudContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistentCloudContainer.swift; sourceTree = "<group>"; };
+		C15C0885254EA1E900199E21 /* FirebaseApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseApi.swift; sourceTree = "<group>"; };
+		C15C08AA254EB0D000199E21 /* UIViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewRepresentable.swift; sourceTree = "<group>"; };
+		C15C08AF254EBCCA00199E21 /* FirebaseRemoteConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseRemoteConfigManager.swift; sourceTree = "<group>"; };
+		C15C08B4254EBD8900199E21 /* StartAppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartAppViewModel.swift; sourceTree = "<group>"; };
+		C15C08B9254EDD2300199E21 /* CategoryVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryVO.swift; sourceTree = "<group>"; };
+		C15C08C1254EE0F200199E21 /* RestaurantVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantVO.swift; sourceTree = "<group>"; };
+		C15C08C6254EE39C00199E21 /* FirebaseApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseApiClient.swift; sourceTree = "<group>"; };
+		C15C092F254EF1F100199E21 /* ApiUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiUtils.swift; sourceTree = "<group>"; };
+		C15C0937254F0ADB00199E21 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		C15C095C254F221200199E21 /* CartInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartInfoView.swift; sourceTree = "<group>"; };
+		C15C0961254F2EC000199E21 /* CartVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVO.swift; sourceTree = "<group>"; };
+		C15C0966254F412F00199E21 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		C190E30A254D94C100CFE556 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
+		C190E30F254D9EF000CFE556 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		C190E315254DA32F00CFE556 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		C190E31D254DC18700CFE556 /* HomeStyle1UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStyle1UIView.swift; sourceTree = "<group>"; };
+		C190E32A254DC20100CFE556 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		C190E32F254DC43B00CFE556 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C190E334254DCDA300CFE556 /* SelectListUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectListUIView.swift; sourceTree = "<group>"; };
+		C190E33A254DD70400CFE556 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		C190E342254DE48E00CFE556 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		C19516672549C746000D0D2C /* WelcomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeUIView.swift; sourceTree = "<group>"; };
+		C19516702549E39E000D0D2C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		C1CADCD32548848300C7BD2F /* HappyFoodDeliveryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyFoodDeliveryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CADCD62548848300C7BD2F /* HappyFoodDeliveryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyFoodDeliveryAppApp.swift; sourceTree = "<group>"; };
 		C1CADCD82548848300C7BD2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +140,9 @@
 		C1CADCF42548848700C7BD2F /* HappyFoodDeliveryAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyFoodDeliveryAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CADCF82548848700C7BD2F /* HappyFoodDeliveryAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyFoodDeliveryAppUITests.swift; sourceTree = "<group>"; };
 		C1CADCFA2548848700C7BD2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6E7E6C21FC20CCE608CE989 /* Pods-HappyFoodDeliveryApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyFoodDeliveryApp.debug.xcconfig"; path = "Target Support Files/Pods-HappyFoodDeliveryApp/Pods-HappyFoodDeliveryApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E42D9D96FB28D9C71D4613A9 /* Pods_HappyFoodDeliveryApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HappyFoodDeliveryApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBD06C8AECDAE588BAEE0782 /* Pods-HappyFoodDeliveryAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HappyFoodDeliveryAppTests.debug.xcconfig"; path = "Target Support Files/Pods-HappyFoodDeliveryAppTests/Pods-HappyFoodDeliveryAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +150,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B9B55E755F192D122CBC85E /* Pods_HappyFoodDeliveryApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				043CF911AEAA14C58352FA22 /* Pods_HappyFoodDeliveryAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +166,167 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2BF89F5357A659AB6D7F8B2 /* Pods_HappyFoodDeliveryApp_HappyFoodDeliveryAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587CD8BFE47989C6548D3F63 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6E7E6C21FC20CCE608CE989 /* Pods-HappyFoodDeliveryApp.debug.xcconfig */,
+				05B97BAA940DDCDFF8078E2F /* Pods-HappyFoodDeliveryApp.release.xcconfig */,
+				2A0B823DE5AB3A5E714D625C /* Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.debug.xcconfig */,
+				03AF5FE9381E1565A91B78DE /* Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.release.xcconfig */,
+				FBD06C8AECDAE588BAEE0782 /* Pods-HappyFoodDeliveryAppTests.debug.xcconfig */,
+				527738720710DFCB8278AE2A /* Pods-HappyFoodDeliveryAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AA561626A9DD92D5F1A0832D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E42D9D96FB28D9C71D4613A9 /* Pods_HappyFoodDeliveryApp.framework */,
+				2ABAC6648C717FD1B56E8873 /* Pods_HappyFoodDeliveryApp_HappyFoodDeliveryAppUITests.framework */,
+				778205FC024FED46112FDE49 /* Pods_HappyFoodDeliveryAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1179B4E254C1993000C0D64 /* viewmodels */ = {
+			isa = PBXGroup;
+			children = (
+				C1179B4F254C19A6000C0D64 /* LoginViewModel.swift */,
+				C1179B5F254C2601000C0D64 /* RegisterViewModel.swift */,
+				C190E30A254D94C100CFE556 /* WelcomeViewModel.swift */,
+				C190E30F254D9EF000CFE556 /* ProfileViewModel.swift */,
+				C190E32F254DC43B00CFE556 /* HomeViewModel.swift */,
+				C15C08B4254EBD8900199E21 /* StartAppViewModel.swift */,
+				C15C0937254F0ADB00199E21 /* DetailViewModel.swift */,
+				C15C0966254F412F00199E21 /* CartViewModel.swift */,
+			);
+			path = viewmodels;
+			sourceTree = "<group>";
+		};
+		C15C07FE254E68C500199E21 /* extractviews */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07FF254E68F400199E21 /* CategoryView.swift */,
+				C15C0807254E693000199E21 /* PopularChoiceView.swift */,
+				C15C080C254E698900199E21 /* NewRestaurantVIew.swift */,
+			);
+			path = extractviews;
+			sourceTree = "<group>";
+		};
+		C15C0811254E784B00199E21 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				C15C092E254EF1D500199E21 /* utils */,
+				C15C0812254E792C00199E21 /* AuthManager.swift */,
+				C15C0817254E7A0200199E21 /* FirebaseAuthManagerImpl.swift */,
+				C15C08AF254EBCCA00199E21 /* FirebaseRemoteConfigManager.swift */,
+				C15C0885254EA1E900199E21 /* FirebaseApi.swift */,
+				C15C08C6254EE39C00199E21 /* FirebaseApiClient.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		C15C0829254E7C8F00199E21 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C15C081C254E7C6C00199E21 /* DataModel.swift */,
+				C15C085D254E959000199E21 /* DataModelImpl.swift */,
+				C15C0847254E7D7200199E21 /* AuthenticationModel.swift */,
+				C15C0854254E7F0A00199E21 /* AuthenticationModelImpl.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		C15C082A254E7C9600199E21 /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				C15C084F254E7E6C00199E21 /* UserInfoVO.swift */,
+				C15C08B9254EDD2300199E21 /* CategoryVO.swift */,
+				C15C08C1254EE0F200199E21 /* RestaurantVO.swift */,
+				C15C0961254F2EC000199E21 /* CartVO.swift */,
+			);
+			path = vos;
+			sourceTree = "<group>";
+		};
+		C15C082C254E7CA300199E21 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				C190E33A254DD70400CFE556 /* Enum.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		C15C0859254E870C00199E21 /* persistance */ = {
+			isa = PBXGroup;
+			children = (
+				C15C0862254E973A00199E21 /* PersistentCloudContainer.swift */,
+			);
+			path = persistance;
+			sourceTree = "<group>";
+		};
+		C15C092E254EF1D500199E21 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				C15C092F254EF1F100199E21 /* ApiUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		C190E314254DA31400CFE556 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				C190E315254DA32F00CFE556 /* CustomTextField.swift */,
+				C190E334254DCDA300CFE556 /* SelectListUIView.swift */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		C190E339254DD6F100CFE556 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				C15C082C254E7CA300199E21 /* utils */,
+				C15C082A254E7C9600199E21 /* vos */,
+				C15C0829254E7C8F00199E21 /* models */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		C19516662549C726000D0D2C /* uiview */ = {
+			isa = PBXGroup;
+			children = (
+				C15C07FE254E68C500199E21 /* extractviews */,
+				C19516672549C746000D0D2C /* WelcomeUIView.swift */,
+				C1179B49254C167C000C0D64 /* LoginUIView.swift */,
+				C1179B5A254C217E000C0D64 /* RegisterUIView.swift */,
+				C1179B64254C2A67000C0D64 /* StartUIView.swift */,
+				C1CADCD62548848300C7BD2F /* HappyFoodDeliveryAppApp.swift */,
+				C1CADCD82548848300C7BD2F /* ContentView.swift */,
+				C1179B69254C32AA000C0D64 /* ProfileUIView.swift */,
+				C190E32A254DC20100CFE556 /* MainTabView.swift */,
+				C190E31D254DC18700CFE556 /* HomeStyle1UIView.swift */,
+				C190E342254DE48E00CFE556 /* RestaurantDetailView.swift */,
+				C15C095C254F221200199E21 /* CartInfoView.swift */,
+			);
+			path = uiview;
+			sourceTree = "<group>";
+		};
+		C195166F2549E387000D0D2C /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				C19516702549E39E000D0D2C /* Extension.swift */,
+				C15C08AA254EB0D000199E21 /* UIViewRepresentable.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
 		C1CADCCA2548848300C7BD2F = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +334,8 @@
 				C1CADCEC2548848700C7BD2F /* HappyFoodDeliveryAppTests */,
 				C1CADCF72548848700C7BD2F /* HappyFoodDeliveryAppUITests */,
 				C1CADCD42548848300C7BD2F /* Products */,
+				587CD8BFE47989C6548D3F63 /* Pods */,
+				AA561626A9DD92D5F1A0832D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,11 +352,17 @@
 		C1CADCD52548848300C7BD2F /* HappyFoodDeliveryApp */ = {
 			isa = PBXGroup;
 			children = (
-				C1CADCD62548848300C7BD2F /* HappyFoodDeliveryAppApp.swift */,
-				C1CADCD82548848300C7BD2F /* ContentView.swift */,
+				C15C0859254E870C00199E21 /* persistance */,
+				C15C0811254E784B00199E21 /* network */,
+				C190E339254DD6F100CFE556 /* data */,
+				C190E314254DA31400CFE556 /* CustomView */,
+				C1179B4E254C1993000C0D64 /* viewmodels */,
+				C195166F2549E387000D0D2C /* extension */,
+				C19516662549C726000D0D2C /* uiview */,
 				C1CADCDA2548848700C7BD2F /* Assets.xcassets */,
 				C1CADCDF2548848700C7BD2F /* Persistence.swift */,
 				C1CADCE42548848700C7BD2F /* Info.plist */,
+				C15C07B0254E606200199E21 /* GoogleService-Info.plist */,
 				C1CADCE12548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodeld */,
 				C1CADCDC2548848700C7BD2F /* Preview Content */,
 			);
@@ -143,9 +402,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1CADCFD2548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryApp" */;
 			buildPhases = (
+				331B6AFB020A2E3CB924F917 /* [CP] Check Pods Manifest.lock */,
 				C1CADCCF2548848300C7BD2F /* Sources */,
 				C1CADCD02548848300C7BD2F /* Frameworks */,
 				C1CADCD12548848300C7BD2F /* Resources */,
+				E4D9AF10CA5FE57C00150F46 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +421,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1CADD002548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryAppTests" */;
 			buildPhases = (
+				ADC8978C1628C5B0676FDCDA /* [CP] Check Pods Manifest.lock */,
 				C1CADCE52548848700C7BD2F /* Sources */,
 				C1CADCE62548848700C7BD2F /* Frameworks */,
 				C1CADCE72548848700C7BD2F /* Resources */,
@@ -178,9 +440,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C1CADD032548848700C7BD2F /* Build configuration list for PBXNativeTarget "HappyFoodDeliveryAppUITests" */;
 			buildPhases = (
+				6930DDBDE5ACE422DB7C842C /* [CP] Check Pods Manifest.lock */,
 				C1CADCF02548848700C7BD2F /* Sources */,
 				C1CADCF12548848700C7BD2F /* Frameworks */,
 				C1CADCF22548848700C7BD2F /* Resources */,
+				AADDF17C870850C49775E881 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -241,6 +505,7 @@
 			files = (
 				C1CADCDE2548848700C7BD2F /* Preview Assets.xcassets in Resources */,
 				C1CADCDB2548848700C7BD2F /* Assets.xcassets in Resources */,
+				C15C07B1254E606200199E21 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,15 +525,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		331B6AFB020A2E3CB924F917 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyFoodDeliveryApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6930DDBDE5ACE422DB7C842C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AADDF17C870850C49775E881 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests/Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC8978C1628C5B0676FDCDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HappyFoodDeliveryAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D9AF10CA5FE57C00150F46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyFoodDeliveryApp/Pods-HappyFoodDeliveryApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HappyFoodDeliveryApp/Pods-HappyFoodDeliveryApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HappyFoodDeliveryApp/Pods-HappyFoodDeliveryApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C1CADCCF2548848300C7BD2F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C15C08C7254EE39C00199E21 /* FirebaseApiClient.swift in Sources */,
+				C15C0886254EA1E900199E21 /* FirebaseApi.swift in Sources */,
+				C1179B6A254C32AA000C0D64 /* ProfileUIView.swift in Sources */,
+				C15C0808254E693000199E21 /* PopularChoiceView.swift in Sources */,
+				C15C08AB254EB0D000199E21 /* UIViewRepresentable.swift in Sources */,
+				C190E330254DC43B00CFE556 /* HomeViewModel.swift in Sources */,
+				C15C08B5254EBD8900199E21 /* StartAppViewModel.swift in Sources */,
+				C1179B4A254C167C000C0D64 /* LoginUIView.swift in Sources */,
+				C15C0863254E973A00199E21 /* PersistentCloudContainer.swift in Sources */,
+				C190E30B254D94C100CFE556 /* WelcomeViewModel.swift in Sources */,
+				C15C0848254E7D7200199E21 /* AuthenticationModel.swift in Sources */,
+				C15C08B0254EBCCA00199E21 /* FirebaseRemoteConfigManager.swift in Sources */,
+				C1179B60254C2601000C0D64 /* RegisterViewModel.swift in Sources */,
+				C15C0818254E7A0200199E21 /* FirebaseAuthManagerImpl.swift in Sources */,
+				C15C085E254E959000199E21 /* DataModelImpl.swift in Sources */,
 				C1CADCE32548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodeld in Sources */,
+				C15C095D254F221200199E21 /* CartInfoView.swift in Sources */,
+				C15C081D254E7C6C00199E21 /* DataModel.swift in Sources */,
+				C190E31E254DC18700CFE556 /* HomeStyle1UIView.swift in Sources */,
+				C15C08BA254EDD2300199E21 /* CategoryVO.swift in Sources */,
+				C15C0855254E7F0A00199E21 /* AuthenticationModelImpl.swift in Sources */,
 				C1CADCE02548848700C7BD2F /* Persistence.swift in Sources */,
+				C190E343254DE48E00CFE556 /* RestaurantDetailView.swift in Sources */,
+				C15C08C2254EE0F200199E21 /* RestaurantVO.swift in Sources */,
+				C190E310254D9EF000CFE556 /* ProfileViewModel.swift in Sources */,
+				C19516682549C746000D0D2C /* WelcomeUIView.swift in Sources */,
+				C190E32B254DC20100CFE556 /* MainTabView.swift in Sources */,
+				C190E335254DCDA300CFE556 /* SelectListUIView.swift in Sources */,
+				C15C0938254F0ADB00199E21 /* DetailViewModel.swift in Sources */,
+				C1179B50254C19A6000C0D64 /* LoginViewModel.swift in Sources */,
+				C1179B65254C2A67000C0D64 /* StartUIView.swift in Sources */,
+				C15C080D254E698900199E21 /* NewRestaurantVIew.swift in Sources */,
+				C15C0967254F412F00199E21 /* CartViewModel.swift in Sources */,
+				C19516712549E39E000D0D2C /* Extension.swift in Sources */,
+				C15C0962254F2EC100199E21 /* CartVO.swift in Sources */,
+				C15C0800254E68F400199E21 /* CategoryView.swift in Sources */,
+				C1179B5B254C217E000C0D64 /* RegisterUIView.swift in Sources */,
 				C1CADCD92548848300C7BD2F /* ContentView.swift in Sources */,
 				C1CADCD72548848300C7BD2F /* HappyFoodDeliveryAppApp.swift in Sources */,
+				C190E33B254DD70400CFE556 /* Enum.swift in Sources */,
+				C15C0930254EF1F100199E21 /* ApiUtils.swift in Sources */,
+				C190E316254DA32F00CFE556 /* CustomTextField.swift in Sources */,
+				C15C0813254E792C00199E21 /* AuthManager.swift in Sources */,
+				C15C0850254E7E6C00199E21 /* UserInfoVO.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +830,7 @@
 		};
 		C1CADCFE2548848700C7BD2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6E7E6C21FC20CCE608CE989 /* Pods-HappyFoodDeliveryApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,7 +844,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.HappyFoodDeliveryApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.happyfooddelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -444,6 +853,7 @@
 		};
 		C1CADCFF2548848700C7BD2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05B97BAA940DDCDFF8078E2F /* Pods-HappyFoodDeliveryApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -457,7 +867,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.HappyFoodDeliveryApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.padc.kyt.happyfooddelivery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +876,7 @@
 		};
 		C1CADD012548848700C7BD2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBD06C8AECDAE588BAEE0782 /* Pods-HappyFoodDeliveryAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +899,7 @@
 		};
 		C1CADD022548848700C7BD2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527738720710DFCB8278AE2A /* Pods-HappyFoodDeliveryAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +922,7 @@
 		};
 		C1CADD042548848700C7BD2F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0B823DE5AB3A5E714D625C /* Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +943,7 @@
 		};
 		C1CADD052548848700C7BD2F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03AF5FE9381E1565A91B78DE /* Pods-HappyFoodDeliveryApp-HappyFoodDeliveryAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_HappyFoodDeliveryAppTests {
+  umbrella header "Pods-HappyFoodDeliveryAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

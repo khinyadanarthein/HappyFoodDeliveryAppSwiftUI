@@ -6,15 +6,17 @@
 //
 
 import Foundation
+import CoreData
 
 protocol DataModel {
     
-//    func getGroceries(success : @escaping ([GroceryVO]) -> Void, fail : @escaping (String) -> Void)
-//    func addGrocery(grocery : GroceryVO, image : Data,success : @escaping (String) -> Void, fail : @escaping (String) -> Void)
-//    func deleteGrocery(grocery : GroceryVO)
-//    func onUploadImage(image : Data, grocery : GroceryVO ,success : @escaping (String) -> Void, fail : @escaping (String) -> Void)
+    func getCategories(success : @escaping ([CategoryVO]) -> Void, fail : @escaping (String) -> Void)
+    func getRestaurants(success : @escaping ([RestaurantVO]) -> Void, fail : @escaping (String) -> Void)
+    func addToCart(cartData : CartVO,success : @escaping (String) -> Void, fail : @escaping (String) -> Void)
+    func getTotalCart(success : @escaping (TotalCartVO) -> Void, fail : @escaping (String) -> Void)
+    
     func setupRemoteConfigDefaultVlaues()
     func fetchRemoteConfigs()
-    func getAppBarNameFromRemoteConfig() -> String
     func getListStyle() -> Int
+
 }
