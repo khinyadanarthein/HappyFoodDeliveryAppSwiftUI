@@ -38,7 +38,19 @@ class DataModelImpl: DataModel {
         api.addCart(cartData: cartData, success: success, fail: fail)
     }
     
-    func getTotalCart(success: @escaping (TotalCartVO) -> Void, fail: @escaping (String) -> Void) {
-        
+    func getTotalCart(cartData : CartVO,success: @escaping (TotalCartVO) -> Void, fail: @escaping (String) -> Void) {
+        api.getTotalCartVO(cartInfo: cartData, success: success, fail: fail)
+    }
+    
+    func updateTotalCart(cartData: CartVO, success: @escaping (String) -> Void, fail: @escaping (String) -> Void) {
+        api.updateTotalCartVO(cartData: cartData, success: success, fail: fail)
+    }
+    
+    func deleteCartFood(cartData: CartVO, success: @escaping (String) -> Void, fail: @escaping (String) -> Void) {
+        api.deleteCartFoodItem(cartData: cartData, success: success, fail: fail)
+    }
+    
+    func checkoutCartFood(cartData: TotalCartVO, success: @escaping (String) -> Void, fail: @escaping (String) -> Void) {
+        api.updateCheckoutCart(cartData: cartData, success: success, fail: fail)
     }
 }

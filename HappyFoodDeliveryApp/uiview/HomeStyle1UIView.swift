@@ -14,7 +14,7 @@ struct HomeStyle1UIView: View {
     
     var body: some View {
         GeometryReader{ geometry in
-            NavigationView{
+            //NavigationView{
             ScrollView {
                 
                 VStack (spacing: 10) {
@@ -111,10 +111,6 @@ struct HomeStyle1UIView: View {
                     if ListStyleType.Catetory.rawValue == self.mViewModel.listStyle {
                         ForEach(mViewModel.restaurants, id: \.id){ res in
                             
-//                            NavigationLink(
-//                                destination: RestaurantDetailView(restaurant: self.mViewModel.detailInfo),
-//                                isActive: self.$mViewModel.isNavigateToDetailScreen) {
-                                
                                 Button(action: {
                                     self.mViewModel.detailInfo = res
                                     self.mViewModel.isNavigateToDetailScreen = true
@@ -148,9 +144,8 @@ struct HomeStyle1UIView: View {
             }
             .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
             .padding(.top)
-            .navigationBarHidden(true)
             }
-        }
+
     }
 }
 

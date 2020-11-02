@@ -155,8 +155,10 @@ struct RestaurantDetailView: View {
                             .frame(width:geometry.size.width - 30,alignment: .leading)
                             .background(Color.init(UIColor.systemGray5))
                             
+                            //Spacer()
+                            
                             NavigationLink(
-                                destination: CartInfoView(),
+                                destination: CartInfoView(restaurant: restaurant),
                                 isActive: $mViewModel.isNavigateToCartScreen) {
                                 Button(action: {
                                     
@@ -172,14 +174,13 @@ struct RestaurantDetailView: View {
                                 
                             }
                             
-                            Spacer()
-                            
                         }
                     }.background(Color.init(UIColor.systemGray5))
                     
                 }
                 .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
-                .edgesIgnoringSafeArea([.top, .bottom])
+                //.edgesIgnoringSafeArea([.top, .bottom])
+                .navigationBarHidden(true)
             }
             
         }

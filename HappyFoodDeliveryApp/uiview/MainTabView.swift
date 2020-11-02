@@ -21,7 +21,7 @@ struct MainTabView: View {
                 )}
             .tag(0)
 
-            StartUIView()
+            WelcomeUIView()
             .tabItem {(
                 VStack {
                     Image(systemName: "flame.fill").font(.system(size: 24, weight: .regular))

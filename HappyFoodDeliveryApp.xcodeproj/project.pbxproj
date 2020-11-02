@@ -40,6 +40,7 @@
 		C15C095D254F221200199E21 /* CartInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C095C254F221200199E21 /* CartInfoView.swift */; };
 		C15C0962254F2EC100199E21 /* CartVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0961254F2EC000199E21 /* CartVO.swift */; };
 		C15C0967254F412F00199E21 /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15C0966254F412F00199E21 /* CartViewModel.swift */; };
+		C15F6A6A254FF9310094B895 /* CheckoutSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C15F6A69254FF9310094B895 /* CheckoutSuccessView.swift */; };
 		C190E30B254D94C100CFE556 /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E30A254D94C100CFE556 /* WelcomeViewModel.swift */; };
 		C190E310254D9EF000CFE556 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E30F254D9EF000CFE556 /* ProfileViewModel.swift */; };
 		C190E316254DA32F00CFE556 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C190E315254DA32F00CFE556 /* CustomTextField.swift */; };
@@ -115,6 +116,7 @@
 		C15C095C254F221200199E21 /* CartInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartInfoView.swift; sourceTree = "<group>"; };
 		C15C0961254F2EC000199E21 /* CartVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVO.swift; sourceTree = "<group>"; };
 		C15C0966254F412F00199E21 /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
+		C15F6A69254FF9310094B895 /* CheckoutSuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutSuccessView.swift; sourceTree = "<group>"; };
 		C190E30A254D94C100CFE556 /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
 		C190E30F254D9EF000CFE556 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
 		C190E315254DA32F00CFE556 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -314,6 +316,7 @@
 				C190E31D254DC18700CFE556 /* HomeStyle1UIView.swift */,
 				C190E342254DE48E00CFE556 /* RestaurantDetailView.swift */,
 				C15C095C254F221200199E21 /* CartInfoView.swift */,
+				C15F6A69254FF9310094B895 /* CheckoutSuccessView.swift */,
 			);
 			path = uiview;
 			sourceTree = "<group>";
@@ -646,6 +649,7 @@
 				C15C0848254E7D7200199E21 /* AuthenticationModel.swift in Sources */,
 				C15C08B0254EBCCA00199E21 /* FirebaseRemoteConfigManager.swift in Sources */,
 				C1179B60254C2601000C0D64 /* RegisterViewModel.swift in Sources */,
+				C15F6A6A254FF9310094B895 /* CheckoutSuccessView.swift in Sources */,
 				C15C0818254E7A0200199E21 /* FirebaseAuthManagerImpl.swift in Sources */,
 				C15C085E254E959000199E21 /* DataModelImpl.swift in Sources */,
 				C1CADCE32548848700C7BD2F /* HappyFoodDeliveryApp.xcdatamodeld in Sources */,

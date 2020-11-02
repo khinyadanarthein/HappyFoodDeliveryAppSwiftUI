@@ -14,7 +14,7 @@ struct WelcomeUIView: View {
     
     var body: some View {
         GeometryReader { geometry in
-            //NavigationView {
+            
                 ScrollView {
                     //Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
                     
@@ -91,7 +91,7 @@ struct WelcomeUIView: View {
                 //.background(Color.init(UIColor.systemGray6))
                 .navigationBarHidden(true)
             }
-        //}
+      
     }
 }
 

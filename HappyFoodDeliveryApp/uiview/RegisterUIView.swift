@@ -115,6 +115,7 @@ struct RegisterUIView: View {
             .alert(isPresented: self.$mViewModel.isSuccess, content: {
                 return Alert(title: Text("Success Sign up! Please log in!!!"))
             })
+            .navigationBarHidden(true)
         }
     }
 }

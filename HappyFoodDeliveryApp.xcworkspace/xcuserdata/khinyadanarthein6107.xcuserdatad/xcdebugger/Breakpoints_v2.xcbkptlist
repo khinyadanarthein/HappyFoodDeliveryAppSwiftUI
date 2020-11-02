@@ -222,8 +222,8 @@
             filePath = "HappyFoodDeliveryApp/uiview/HomeStyle1UIView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
@@ -238,10 +238,474 @@
             filePath = "HappyFoodDeliveryApp/uiview/HomeStyle1UIView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "126"
-            endingLineNumber = "126"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
             landmarkName = "body"
             landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E14D46C4-62BA-411E-83B9-A1D58D45FD13"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "getTotalCartVO(cartInfo:success:fail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EDA4E14E-3D29-426D-8227-F77E742C1BBB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "prepareCartInfo(restaurant:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "47466A30-F442-429F-A760-CB5B6D074EC5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "getTotalCartVO(cartInfo:success:fail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2634263-6E25-469D-8DBD-AEBC8EA3D2E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "106"
+            endingLineNumber = "106"
+            landmarkName = "getTotalCartVO(cartInfo:success:fail:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF305DEF-054E-430A-A601-5A8C178A0439"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "getTotalCartVO(cartInfo:success:fail:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EF305DEF-054E-430A-A601-5A8C178A0439 - 9dcf1f783b617c4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRDocumentSnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HappyFoodDeliveryApp.FirebaseApiClient.getTotalCartVO(cartInfo: HappyFoodDeliveryApp.CartVO, success: (HappyFoodDeliveryApp.TotalCartVO) -&gt; (), fail: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "4052">
+               </Location>
+               <Location
+                  uuid = "EF305DEF-054E-430A-A601-5A8C178A0439 - d126f1a8113c86a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;__C.FIRQuerySnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in closure #1 (Swift.Optional&lt;__C.FIRDocumentSnapshot&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HappyFoodDeliveryApp.FirebaseApiClient.getTotalCartVO(cartInfo: HappyFoodDeliveryApp.CartVO, success: (HappyFoodDeliveryApp.TotalCartVO) -&gt; (), fail: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BA1F1AC6-4CBF-4D3E-A1C5-A951087BC99B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "onTapIncreaseItem(cartFood:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BA1F1AC6-4CBF-4D3E-A1C5-A951087BC99B - ff4d11e29c7335b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HappyFoodDeliveryApp.CartViewModel.onTapIncreaseItem(cartFood: HappyFoodDeliveryApp.CartFoodVO) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "66"
+                  endingLineNumber = "66"
+                  offsetFromSymbolStart = "2163">
+               </Location>
+               <Location
+                  uuid = "BA1F1AC6-4CBF-4D3E-A1C5-A951087BC99B - f9e004ffa3fdee88"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in HappyFoodDeliveryApp.CartViewModel.onTapIncreaseItem(cartFood: HappyFoodDeliveryApp.CartFoodVO) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2AA4B2A5-956C-4EBC-84CF-7B9A5B843B1D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "157"
+            endingLineNumber = "157"
+            landmarkName = "updateTotalCartVO(cartData:success:fail:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2AA4B2A5-956C-4EBC-84CF-7B9A5B843B1D - d46a68e4d211aac7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HappyFoodDeliveryApp.FirebaseApiClient.updateTotalCartVO(cartData: HappyFoodDeliveryApp.CartVO, success: (Swift.String) -&gt; (), fail: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "157"
+                  endingLineNumber = "157"
+                  offsetFromSymbolStart = "6440">
+               </Location>
+               <Location
+                  uuid = "2AA4B2A5-956C-4EBC-84CF-7B9A5B843B1D - d311e5655d6945b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HappyFoodDeliveryApp.FirebaseApiClient.updateTotalCartVO(cartData: HappyFoodDeliveryApp.CartVO, success: (Swift.String) -&gt; (), fail: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "158"
+                  endingLineNumber = "158"
+                  offsetFromSymbolStart = "323">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "999D055F-CBC9-4D2B-8C6D-00B5BA0B8783"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "prepareCartInfo(restaurant:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F471DE2A-0E9F-45B6-9B08-266C81058961"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "prepareCartInfo(restaurant:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F471DE2A-0E9F-45B6-9B08-266C81058961 - 19ad3fd21b79a3d9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HappyFoodDeliveryApp.CartViewModel.prepareCartInfo(restaurant: HappyFoodDeliveryApp.RestaurantVO) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "278">
+               </Location>
+               <Location
+                  uuid = "F471DE2A-0E9F-45B6-9B08-266C81058961 - 11e8c247be085898"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (HappyFoodDeliveryApp.TotalCartVO) -&gt; () in HappyFoodDeliveryApp.CartViewModel.prepareCartInfo(restaurant: HappyFoodDeliveryApp.RestaurantVO) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "184">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE61390A-94CF-4E98-9868-672E933EF740"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "onTapdecreaseItem(cartFood:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0CAED95F-C728-4C35-88C0-60B17F6BD804"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "136"
+            endingLineNumber = "136"
+            landmarkName = "checkoutCart()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0CAED95F-C728-4C35-88C0-60B17F6BD804 - 8c4be1404877eaf0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HappyFoodDeliveryApp.CartViewModel.checkoutCart() -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "127"
+                  endingLineNumber = "127"
+                  offsetFromSymbolStart = "25">
+               </Location>
+               <Location
+                  uuid = "0CAED95F-C728-4C35-88C0-60B17F6BD804 - 6ddb649538642edb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in HappyFoodDeliveryApp.CartViewModel.checkoutCart() -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "128"
+                  endingLineNumber = "128"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "87D85F65-4C9F-4273-84BB-1689F1BFB701"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "204"
+            endingLineNumber = "204"
+            landmarkName = "updateCheckoutCart(cartData:success:fail:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "87D85F65-4C9F-4273-84BB-1689F1BFB701 - e9d8bb49dd79e097"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HappyFoodDeliveryApp.FirebaseApiClient.updateCheckoutCart(cartData: HappyFoodDeliveryApp.TotalCartVO, success: (Swift.String) -&gt; (), fail: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "202"
+                  endingLineNumber = "202"
+                  offsetFromSymbolStart = "2279">
+               </Location>
+               <Location
+                  uuid = "87D85F65-4C9F-4273-84BB-1689F1BFB701 - 5e206c6fbd6dd0dc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;) -&gt; () in HappyFoodDeliveryApp.FirebaseApiClient.updateCheckoutCart(cartData: HappyFoodDeliveryApp.TotalCartVO, success: (Swift.String) -&gt; (), fail: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/network/FirebaseApiClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "203"
+                  endingLineNumber = "203"
+                  offsetFromSymbolStart = "95">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "320F1E8B-383D-45B4-8EEA-4A1F2FEA572E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "onTapdecreaseItem(cartFood:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A474DFBD-B9F6-400E-85D6-77453236CBF5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/uiview/CartInfoView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "A474DFBD-B9F6-400E-85D6-77453236CBF5 - adfdffb0ec0929ac"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #7 () -&gt; HappyFoodDeliveryApp.CheckoutSuccessView&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.scaledToFit() -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.background&lt;A where A1: SwiftUI.View&gt;(_: A1, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.sheet&lt;A where A1: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; A1) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarHidden(Swift.Bool) -&gt; some&gt;&gt;.0 in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in HappyFoodDeliveryApp.CartInfoView.body.getter : some"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/uiview/CartInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "A474DFBD-B9F6-400E-85D6-77453236CBF5 - a46d935348a1f5bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.scaledToFit() -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt; in closure #7 () -&gt; HappyFoodDeliveryApp.CheckoutSuccessView&lt;SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.scaledToFit() -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.foregroundColor(Swift.Optional&lt;SwiftUI.Color&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.padding(SwiftUI.Edge.Set, Swift.Optional&lt;CoreGraphics.CGFloat&gt;) -&gt; some&gt;&gt;.0, SwiftUI.Spacer)&gt;&gt;&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(&lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.background&lt;A where A1: SwiftUI.View&gt;(_: A1, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.frame(width: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, height: Swift.Optional&lt;CoreGraphics.CGFloat&gt;, alignment: SwiftUI.Alignment) -&gt; some&gt;&gt;.0, SwiftUI.Spacer, &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.sheet&lt;A where A1: SwiftUI.View&gt;(isPresented: SwiftUI.Binding&lt;Swift.Bool&gt;, onDismiss: Swift.Optional&lt;() -&gt; ()&gt;, content: () -&gt; A1) -&gt; some&gt;&gt;.0)&gt; in closure #1 () -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.navigationBarHidden(Swift.Bool) -&gt; some&gt;&gt;.0 in closure #1 (SwiftUI.GeometryProxy) -&gt; &lt;&lt;opaque return type of (extension in SwiftUI):SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in HappyFoodDeliveryApp.CartInfoView.body.getter : some"
+                  moduleName = "HappyFoodDeliveryApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/khinyadanarthein6107/Desktop/PADC/assignment/HappyFoodDeliveryApp/HappyFoodDeliveryApp/uiview/CartInfoView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "267">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B11BD0F-2023-45EB-B5EC-5473DFA9D4CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HappyFoodDeliveryApp/viewmodels/CartViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "checkoutCart()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

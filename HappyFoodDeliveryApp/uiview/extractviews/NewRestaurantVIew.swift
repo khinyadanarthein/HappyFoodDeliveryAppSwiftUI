@@ -21,7 +21,7 @@ struct NewRestaurantView: View {
                     .resizable()
                     .indicator(.activity)
                     .transition(.fade(duration: 0.5))
-                    .scaledToFit()
+                    .scaledToFill()
                     .frame(width: 150, height: 150, alignment: .center)
                     .cornerRadius(15)
                 

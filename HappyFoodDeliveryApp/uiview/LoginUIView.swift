@@ -21,8 +21,9 @@ struct LoginUIView: View {
                         .fontWeight(.bold)
                         .font(.system(size: 30))
                         .multilineTextAlignment(.leading)
-                        .padding([.bottom,.top],50)
-                        .padding([.leading],20)
+                        .frame(height: 100, alignment: .center)
+                        .padding()
+//                        .padding([.leading],20)
                     
                     TextField("Email", text: $mViewModel.mEmail)
                         .frame(height : 55)
@@ -69,37 +70,35 @@ struct LoginUIView: View {
                         .padding(.top, 20)
                         .padding([.leading, .trailing], 5)
                     }
-                    
                     Spacer()
+                    HStack(alignment: .center) {
+                         Text("Don't have an account? ")
+                             .fontWeight(.medium)
+                             .font(.system(size: 20))
+                         
+                         
+                         NavigationLink(
+                             destination: RegisterUIView(),
+                             isActive: self.$mViewModel.isNavigateToRegisterScreen) {
+                             Button(action: {
+                                 self.mViewModel.isNavigateToRegisterScreen = true
+                             
+                             }, label: {
+                                 Text("Sign up")
+                                     .foregroundColor(.pink)
+                                     .font(.system(size: 20))
+                                     .fontWeight(.semibold)
+                             })
+                         }
+                     }
+                    .frame(width : geometry.size.width - 30,height: 50, alignment: .center)
                 }
+                .frame(width: geometry.size.width - 30, height: geometry.size.height, alignment: .center)
                 
-                Spacer()
-                HStack(alignment: .bottom) {
-                    Text("Don't have an account? ")
-                        .fontWeight(.medium)
-                        .font(.system(size: 20))
-                    
-                    
-                    NavigationLink(
-                        destination: RegisterUIView(),
-                        isActive: self.$mViewModel.isNavigateToRegisterScreen) {
-                        Button(action: {
-                            self.mViewModel.isNavigateToRegisterScreen = true
-                        
-                        }, label: {
-                            Text("Sign up")
-                                .foregroundColor(.pink)
-                                .font(.system(size: 20))
-                                .fontWeight(.semibold)
-                        })
-                    }
-                }
-                .frame(height: 50)
+                .navigationBarHidden(true)
             }
-            .padding([.top],20)
-            .padding()
             .frame(width: geometry.size.width, height: geometry.size.height, alignment: .center)
-            .edgesIgnoringSafeArea([.top, .bottom])
+            //.edgesIgnoringSafeArea([.top, .bottom])
             .background(Color.init(.systemGray6))
             
         }

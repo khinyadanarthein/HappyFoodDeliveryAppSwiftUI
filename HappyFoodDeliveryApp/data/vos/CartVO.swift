@@ -28,7 +28,9 @@ class TotalCartVO : Identifiable {
     var totalPrice : Double?
     var deliveryFee : Double?
     var isCheckout : Bool?
-    var restaurant_name : String?
-    var restaurant_address : String?
+    var restaurantName : String?
+    var restaurantAddress : String?
+    var restaurantRating : Double?
+    var restaurantCount : Int?
     var cartFoodList : [CartFoodVO]?
 }

@@ -96,6 +96,7 @@ struct ProfileUIView: View {
                             }
                             
                             Spacer()
+                            
                         }
                     }
                 }
